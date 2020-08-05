@@ -8,10 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1FFCEA25D91966AC5ACDD8C4155EB280 /* Pods-PSDrawsana_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC3140EA33C9878A069D48981B75AD /* Pods-PSDrawsana_Example-dummy.m */; };
+		47A030D524DAD35900553898 /* DrawsanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030AA24DAD35800553898 /* DrawsanaView.swift */; };
+		47A030D624DAD35900553898 /* DrawingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030AC24DAD35800553898 /* DrawingTool.swift */; };
+		47A030D724DAD35900553898 /* DrawingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030AD24DAD35800553898 /* DrawingOperations.swift */; };
+		47A030D824DAD35900553898 /* SelectionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030AF24DAD35800553898 /* SelectionTool.swift */; };
+		47A030D924DAD35900553898 /* StarTool_PentagonTool_TriangleTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B024DAD35800553898 /* StarTool_PentagonTool_TriangleTool.swift */; };
+		47A030DA24DAD35900553898 /* AngleTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B124DAD35800553898 /* AngleTool.swift */; };
+		47A030DB24DAD35900553898 /* DragHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B324DAD35800553898 /* DragHandler.swift */; };
+		47A030DC24DAD35900553898 /* TextShapeEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B424DAD35800553898 /* TextShapeEditingView.swift */; };
+		47A030DD24DAD35900553898 /* TextTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B524DAD35800553898 /* TextTool.swift */; };
+		47A030DE24DAD35900553898 /* PenTool_EraserTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B624DAD35800553898 /* PenTool_EraserTool.swift */; };
+		47A030DF24DAD35900553898 /* DrawingToolForShapeWithTwoPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B724DAD35800553898 /* DrawingToolForShapeWithTwoPoints.swift */; };
+		47A030E024DAD35900553898 /* DrawingToolForShapeWithThreePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B824DAD35800553898 /* DrawingToolForShapeWithThreePoints.swift */; };
+		47A030E124DAD35900553898 /* ArrowTool_EllipseTool_LineTool_RectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030B924DAD35800553898 /* ArrowTool_EllipseTool_LineTool_RectTool.swift */; };
+		47A030E224DAD35900553898 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030BB24DAD35900553898 /* Shape.swift */; };
+		47A030E324DAD35900553898 /* ShapeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030BC24DAD35900553898 /* ShapeTransform.swift */; };
+		47A030E424DAD35900553898 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030BE24DAD35900553898 /* LineShape.swift */; };
+		47A030E524DAD35900553898 /* PenShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030BF24DAD35900553898 /* PenShape.swift */; };
+		47A030E624DAD35900553898 /* NgonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C024DAD35900553898 /* NgonShape.swift */; };
+		47A030E724DAD35900553898 /* RectShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C124DAD35900553898 /* RectShape.swift */; };
+		47A030E824DAD35900553898 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C224DAD35900553898 /* TextShape.swift */; };
+		47A030E924DAD35900553898 /* StarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C324DAD35900553898 /* StarShape.swift */; };
+		47A030EA24DAD35900553898 /* EllipseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C424DAD35900553898 /* EllipseShape.swift */; };
+		47A030EB24DAD35900553898 /* AngleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C524DAD35900553898 /* AngleShape.swift */; };
+		47A030EC24DAD35900553898 /* DrawingOperationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C724DAD35900553898 /* DrawingOperationStack.swift */; };
+		47A030ED24DAD35900553898 /* ToolSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C824DAD35900553898 /* ToolSettings.swift */; };
+		47A030EE24DAD35900553898 /* ToolOperationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030C924DAD35900553898 /* ToolOperationContext.swift */; };
+		47A030EF24DAD35900553898 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030CA24DAD35900553898 /* UserSettings.swift */; };
+		47A030F024DAD35900553898 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030CB24DAD35900553898 /* Drawing.swift */; };
+		47A030F124DAD35900553898 /* DrawsanaUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030CD24DAD35900553898 /* DrawsanaUtilities.swift */; };
+		47A030F224DAD35900553898 /* CGPoint+DrawsanaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030CF24DAD35900553898 /* CGPoint+DrawsanaExtensions.swift */; };
+		47A030F324DAD35900553898 /* CGFloat+DrawsanaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030D024DAD35900553898 /* CGFloat+DrawsanaExtensions.swift */; };
+		47A030F424DAD35900553898 /* CGRect+DrawsanaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030D124DAD35900553898 /* CGRect+DrawsanaExtensions.swift */; };
+		47A030F524DAD35900553898 /* UIColor+DrawsanaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030D224DAD35900553898 /* UIColor+DrawsanaExtensions.swift */; };
+		47A030F624DAD35900553898 /* KeyedDecodingContainer+DrawsanaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030D324DAD35900553898 /* KeyedDecodingContainer+DrawsanaExtensions.swift */; };
+		47A030F724DAD35900553898 /* ImmediatePanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A030D424DAD35900553898 /* ImmediatePanGestureRecognizer.swift */; };
 		4D3D0C1E1B0173967A65CA8F13908B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4EC3CC4FE9C280B2A874B7A918C5389A /* PSDrawsana-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EE473DC67870C2785E439CD98976C5 /* PSDrawsana-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AC02232051C943C40163BACC66C2621 /* Pods-PSDrawsana_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045ED47015964F6FD33269D77B1BC55E /* Pods-PSDrawsana_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81E818D19DD2BADEC00562558FE0A4F4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74091F4C216F714F5B1BFB36B4DE221 /* ReplaceMe.swift */; };
 		9219B0BF7CFCC4CE783817AD54B7DA4C /* PSDrawsana-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871FA475E0DC1AFAFFFF246AA2158279 /* PSDrawsana-dummy.m */; };
 		930D108F009357D902EE369FA49716E0 /* Pods-PSDrawsana_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D519195F68747596E504BB64D236A44 /* Pods-PSDrawsana_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97C86617E5D882E3576C9B5DCED82936 /* Pods-PSDrawsana_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182406E24B415F7155D0D72CFE63C4DA /* Pods-PSDrawsana_Tests-dummy.m */; };
@@ -42,13 +76,48 @@
 		13EE473DC67870C2785E439CD98976C5 /* PSDrawsana-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSDrawsana-umbrella.h"; sourceTree = "<group>"; };
 		182406E24B415F7155D0D72CFE63C4DA /* Pods-PSDrawsana_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSDrawsana_Tests-dummy.m"; sourceTree = "<group>"; };
 		1A4AC0A18579F7CB1A28D635441D082A /* PSDrawsana.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSDrawsana.modulemap; sourceTree = "<group>"; };
-		2F1E2276F1DCF6909B4C6A0EC9E8BF78 /* Pods_PSDrawsana_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSDrawsana_Tests.framework; path = "Pods-PSDrawsana_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1E2276F1DCF6909B4C6A0EC9E8BF78 /* Pods_PSDrawsana_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSDrawsana_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39DA4EC84263B6D100919AF2C341FF60 /* PSDrawsana-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSDrawsana-prefix.pch"; sourceTree = "<group>"; };
 		3DB2D445E2FB3B3D47F07B849531ECBC /* Pods-PSDrawsana_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSDrawsana_Example.release.xcconfig"; sourceTree = "<group>"; };
 		43175206DD5AFFAD783EC07AE4099375 /* Pods-PSDrawsana_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSDrawsana_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47A030AA24DAD35800553898 /* DrawsanaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawsanaView.swift; path = PSDrawsana/Classes/DrawsanaView.swift; sourceTree = "<group>"; };
+		47A030AC24DAD35800553898 /* DrawingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingTool.swift; sourceTree = "<group>"; };
+		47A030AD24DAD35800553898 /* DrawingOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingOperations.swift; sourceTree = "<group>"; };
+		47A030AF24DAD35800553898 /* SelectionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTool.swift; sourceTree = "<group>"; };
+		47A030B024DAD35800553898 /* StarTool_PentagonTool_TriangleTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarTool_PentagonTool_TriangleTool.swift; sourceTree = "<group>"; };
+		47A030B124DAD35800553898 /* AngleTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleTool.swift; sourceTree = "<group>"; };
+		47A030B324DAD35800553898 /* DragHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragHandler.swift; sourceTree = "<group>"; };
+		47A030B424DAD35800553898 /* TextShapeEditingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextShapeEditingView.swift; sourceTree = "<group>"; };
+		47A030B524DAD35800553898 /* TextTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTool.swift; sourceTree = "<group>"; };
+		47A030B624DAD35800553898 /* PenTool_EraserTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenTool_EraserTool.swift; sourceTree = "<group>"; };
+		47A030B724DAD35800553898 /* DrawingToolForShapeWithTwoPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingToolForShapeWithTwoPoints.swift; sourceTree = "<group>"; };
+		47A030B824DAD35800553898 /* DrawingToolForShapeWithThreePoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingToolForShapeWithThreePoints.swift; sourceTree = "<group>"; };
+		47A030B924DAD35800553898 /* ArrowTool_EllipseTool_LineTool_RectTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowTool_EllipseTool_LineTool_RectTool.swift; sourceTree = "<group>"; };
+		47A030BB24DAD35900553898 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		47A030BC24DAD35900553898 /* ShapeTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeTransform.swift; sourceTree = "<group>"; };
+		47A030BE24DAD35900553898 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		47A030BF24DAD35900553898 /* PenShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenShape.swift; sourceTree = "<group>"; };
+		47A030C024DAD35900553898 /* NgonShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NgonShape.swift; sourceTree = "<group>"; };
+		47A030C124DAD35900553898 /* RectShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectShape.swift; sourceTree = "<group>"; };
+		47A030C224DAD35900553898 /* TextShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		47A030C324DAD35900553898 /* StarShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarShape.swift; sourceTree = "<group>"; };
+		47A030C424DAD35900553898 /* EllipseShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EllipseShape.swift; sourceTree = "<group>"; };
+		47A030C524DAD35900553898 /* AngleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleShape.swift; sourceTree = "<group>"; };
+		47A030C724DAD35900553898 /* DrawingOperationStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingOperationStack.swift; sourceTree = "<group>"; };
+		47A030C824DAD35900553898 /* ToolSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolSettings.swift; sourceTree = "<group>"; };
+		47A030C924DAD35900553898 /* ToolOperationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolOperationContext.swift; sourceTree = "<group>"; };
+		47A030CA24DAD35900553898 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		47A030CB24DAD35900553898 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		47A030CD24DAD35900553898 /* DrawsanaUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawsanaUtilities.swift; sourceTree = "<group>"; };
+		47A030CF24DAD35900553898 /* CGPoint+DrawsanaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+DrawsanaExtensions.swift"; sourceTree = "<group>"; };
+		47A030D024DAD35900553898 /* CGFloat+DrawsanaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+DrawsanaExtensions.swift"; sourceTree = "<group>"; };
+		47A030D124DAD35900553898 /* CGRect+DrawsanaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+DrawsanaExtensions.swift"; sourceTree = "<group>"; };
+		47A030D224DAD35900553898 /* UIColor+DrawsanaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+DrawsanaExtensions.swift"; sourceTree = "<group>"; };
+		47A030D324DAD35900553898 /* KeyedDecodingContainer+DrawsanaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+DrawsanaExtensions.swift"; sourceTree = "<group>"; };
+		47A030D424DAD35900553898 /* ImmediatePanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmediatePanGestureRecognizer.swift; sourceTree = "<group>"; };
 		4ABC3140EA33C9878A069D48981B75AD /* Pods-PSDrawsana_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSDrawsana_Example-dummy.m"; sourceTree = "<group>"; };
-		544107CC64881295455E6607267B25D2 /* PSDrawsana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSDrawsana.framework; path = PSDrawsana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544107CC64881295455E6607267B25D2 /* PSDrawsana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSDrawsana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5969AB2E07257C6859D1085C3B9B1CD2 /* Pods-PSDrawsana_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSDrawsana_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A8A7F509E8B36CA2FC8A73C106F99A0 /* PSDrawsana-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSDrawsana-Info.plist"; sourceTree = "<group>"; };
 		5BDEF8AA5C3A4743888E47800A52A026 /* Pods-PSDrawsana_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSDrawsana_Tests.modulemap"; sourceTree = "<group>"; };
@@ -56,19 +125,18 @@
 		8714182252D3621E5C23D7DC6F970A69 /* Pods-PSDrawsana_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSDrawsana_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		871FA475E0DC1AFAFFFF246AA2158279 /* PSDrawsana-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSDrawsana-dummy.m"; sourceTree = "<group>"; };
 		95C7AE5874887893DA9AE4CBFC498C7B /* PSDrawsana.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSDrawsana.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A3A6F30D852BDAA3BA42F41E3CA536 /* Pods-PSDrawsana_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSDrawsana_Tests-Info.plist"; sourceTree = "<group>"; };
 		AC737FA985D40935715C5377CECD5DE5 /* Pods-PSDrawsana_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSDrawsana_Example.modulemap"; sourceTree = "<group>"; };
-		C74091F4C216F714F5B1BFB36B4DE221 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PSDrawsana/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C849D99AC708BFDB300F9BC957792F34 /* Pods-PSDrawsana_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSDrawsana_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC0D877B8E39342A30DDCBCF58A1FD6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC0D877B8E39342A30DDCBCF58A1FD6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE9B9E8EAE851030658E5F7D868C0B7B /* Pods-PSDrawsana_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSDrawsana_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DD82294806FD2EA2A144A118DC3691F4 /* Pods-PSDrawsana_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSDrawsana_Example-Info.plist"; sourceTree = "<group>"; };
 		E2590EC40D3DC407085D56F574AEC014 /* Pods-PSDrawsana_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSDrawsana_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2CB8D3C0F8A390A753B8BB5707C083C /* Pods_PSDrawsana_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSDrawsana_Example.framework; path = "Pods-PSDrawsana_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CB8D3C0F8A390A753B8BB5707C083C /* Pods_PSDrawsana_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSDrawsana_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DE867D40864181D41AD7657A97F814 /* Pods-PSDrawsana_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSDrawsana_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5285AEA0EF3D16E36241A8E74C2D1B2 /* PSDrawsana.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PSDrawsana.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F97BD26079AB8A7EDBAADFD25508C845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5285AEA0EF3D16E36241A8E74C2D1B2 /* PSDrawsana.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PSDrawsana.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F97BD26079AB8A7EDBAADFD25508C845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +179,114 @@
 		1EEBAE006B84DCB69E91ABFB3403A66B /* PSDrawsana */ = {
 			isa = PBXGroup;
 			children = (
-				C74091F4C216F714F5B1BFB36B4DE221 /* ReplaceMe.swift */,
+				47A030AA24DAD35800553898 /* DrawsanaView.swift */,
+				47A030C624DAD35900553898 /* Data model */,
+				47A030CC24DAD35900553898 /* Helpers */,
+				47A030BA24DAD35900553898 /* Shapes */,
+				47A030AB24DAD35800553898 /* Tools */,
 				66D296A2EF261BCB276111A96D069B7C /* Pod */,
 				80BC601821BB7A2DBFFA9F118BD8BEB3 /* Support Files */,
 			);
 			name = PSDrawsana;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		47A030AB24DAD35800553898 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				47A030AC24DAD35800553898 /* DrawingTool.swift */,
+				47A030AD24DAD35800553898 /* DrawingOperations.swift */,
+				47A030AE24DAD35800553898 /* Implementations */,
+			);
+			name = Tools;
+			path = PSDrawsana/Classes/Tools;
+			sourceTree = "<group>";
+		};
+		47A030AE24DAD35800553898 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				47A030B224DAD35800553898 /* Text tool */,
+				47A030AF24DAD35800553898 /* SelectionTool.swift */,
+				47A030B024DAD35800553898 /* StarTool_PentagonTool_TriangleTool.swift */,
+				47A030B124DAD35800553898 /* AngleTool.swift */,
+				47A030B624DAD35800553898 /* PenTool_EraserTool.swift */,
+				47A030B724DAD35800553898 /* DrawingToolForShapeWithTwoPoints.swift */,
+				47A030B824DAD35800553898 /* DrawingToolForShapeWithThreePoints.swift */,
+				47A030B924DAD35800553898 /* ArrowTool_EllipseTool_LineTool_RectTool.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		47A030B224DAD35800553898 /* Text tool */ = {
+			isa = PBXGroup;
+			children = (
+				47A030B324DAD35800553898 /* DragHandler.swift */,
+				47A030B424DAD35800553898 /* TextShapeEditingView.swift */,
+				47A030B524DAD35800553898 /* TextTool.swift */,
+			);
+			path = "Text tool";
+			sourceTree = "<group>";
+		};
+		47A030BA24DAD35900553898 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				47A030BB24DAD35900553898 /* Shape.swift */,
+				47A030BC24DAD35900553898 /* ShapeTransform.swift */,
+				47A030BD24DAD35900553898 /* Implementations */,
+			);
+			name = Shapes;
+			path = PSDrawsana/Classes/Shapes;
+			sourceTree = "<group>";
+		};
+		47A030BD24DAD35900553898 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				47A030BE24DAD35900553898 /* LineShape.swift */,
+				47A030BF24DAD35900553898 /* PenShape.swift */,
+				47A030C024DAD35900553898 /* NgonShape.swift */,
+				47A030C124DAD35900553898 /* RectShape.swift */,
+				47A030C224DAD35900553898 /* TextShape.swift */,
+				47A030C324DAD35900553898 /* StarShape.swift */,
+				47A030C424DAD35900553898 /* EllipseShape.swift */,
+				47A030C524DAD35900553898 /* AngleShape.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		47A030C624DAD35900553898 /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				47A030C724DAD35900553898 /* DrawingOperationStack.swift */,
+				47A030C824DAD35900553898 /* ToolSettings.swift */,
+				47A030C924DAD35900553898 /* ToolOperationContext.swift */,
+				47A030CA24DAD35900553898 /* UserSettings.swift */,
+				47A030CB24DAD35900553898 /* Drawing.swift */,
+			);
+			name = "Data model";
+			path = "PSDrawsana/Classes/Data model";
+			sourceTree = "<group>";
+		};
+		47A030CC24DAD35900553898 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47A030CE24DAD35900553898 /* Extensions */,
+				47A030CD24DAD35900553898 /* DrawsanaUtilities.swift */,
+				47A030D424DAD35900553898 /* ImmediatePanGestureRecognizer.swift */,
+			);
+			name = Helpers;
+			path = PSDrawsana/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		47A030CE24DAD35900553898 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47A030CF24DAD35900553898 /* CGPoint+DrawsanaExtensions.swift */,
+				47A030D024DAD35900553898 /* CGFloat+DrawsanaExtensions.swift */,
+				47A030D124DAD35900553898 /* CGRect+DrawsanaExtensions.swift */,
+				47A030D224DAD35900553898 /* UIColor+DrawsanaExtensions.swift */,
+				47A030D324DAD35900553898 /* KeyedDecodingContainer+DrawsanaExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		66D296A2EF261BCB276111A96D069B7C /* Pod */ = {
@@ -315,6 +485,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					88628D6C66D47771456B13C821D560F5 = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,8 +548,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A030DD24DAD35900553898 /* TextTool.swift in Sources */,
+				47A030DB24DAD35900553898 /* DragHandler.swift in Sources */,
+				47A030D824DAD35900553898 /* SelectionTool.swift in Sources */,
+				47A030F424DAD35900553898 /* CGRect+DrawsanaExtensions.swift in Sources */,
+				47A030D924DAD35900553898 /* StarTool_PentagonTool_TriangleTool.swift in Sources */,
+				47A030F624DAD35900553898 /* KeyedDecodingContainer+DrawsanaExtensions.swift in Sources */,
+				47A030E124DAD35900553898 /* ArrowTool_EllipseTool_LineTool_RectTool.swift in Sources */,
+				47A030E724DAD35900553898 /* RectShape.swift in Sources */,
+				47A030F024DAD35900553898 /* Drawing.swift in Sources */,
+				47A030EE24DAD35900553898 /* ToolOperationContext.swift in Sources */,
+				47A030DA24DAD35900553898 /* AngleTool.swift in Sources */,
+				47A030F724DAD35900553898 /* ImmediatePanGestureRecognizer.swift in Sources */,
+				47A030E824DAD35900553898 /* TextShape.swift in Sources */,
 				9219B0BF7CFCC4CE783817AD54B7DA4C /* PSDrawsana-dummy.m in Sources */,
-				81E818D19DD2BADEC00562558FE0A4F4 /* ReplaceMe.swift in Sources */,
+				47A030E524DAD35900553898 /* PenShape.swift in Sources */,
+				47A030ED24DAD35900553898 /* ToolSettings.swift in Sources */,
+				47A030EC24DAD35900553898 /* DrawingOperationStack.swift in Sources */,
+				47A030F324DAD35900553898 /* CGFloat+DrawsanaExtensions.swift in Sources */,
+				47A030DF24DAD35900553898 /* DrawingToolForShapeWithTwoPoints.swift in Sources */,
+				47A030F124DAD35900553898 /* DrawsanaUtilities.swift in Sources */,
+				47A030DC24DAD35900553898 /* TextShapeEditingView.swift in Sources */,
+				47A030DE24DAD35900553898 /* PenTool_EraserTool.swift in Sources */,
+				47A030E424DAD35900553898 /* LineShape.swift in Sources */,
+				47A030EA24DAD35900553898 /* EllipseShape.swift in Sources */,
+				47A030E224DAD35900553898 /* Shape.swift in Sources */,
+				47A030E924DAD35900553898 /* StarShape.swift in Sources */,
+				47A030D624DAD35900553898 /* DrawingTool.swift in Sources */,
+				47A030F224DAD35900553898 /* CGPoint+DrawsanaExtensions.swift in Sources */,
+				47A030E324DAD35900553898 /* ShapeTransform.swift in Sources */,
+				47A030EB24DAD35900553898 /* AngleShape.swift in Sources */,
+				47A030F524DAD35900553898 /* UIColor+DrawsanaExtensions.swift in Sources */,
+				47A030D724DAD35900553898 /* DrawingOperations.swift in Sources */,
+				47A030E624DAD35900553898 /* NgonShape.swift in Sources */,
+				47A030EF24DAD35900553898 /* UserSettings.swift in Sources */,
+				47A030D524DAD35900553898 /* DrawsanaView.swift in Sources */,
+				47A030E024DAD35900553898 /* DrawingToolForShapeWithThreePoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +629,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSDrawsana_Example/Pods-PSDrawsana_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSDrawsana_Example/Pods-PSDrawsana_Example.modulemap";
@@ -485,13 +694,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -548,7 +756,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -577,7 +785,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSDrawsana_Example/Pods-PSDrawsana_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSDrawsana_Example/Pods-PSDrawsana_Example.modulemap";
@@ -599,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95C7AE5874887893DA9AE4CBFC498C7B /* PSDrawsana.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -611,7 +820,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PSDrawsana/PSDrawsana-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PSDrawsana/PSDrawsana-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PSDrawsana/PSDrawsana.modulemap";
 				PRODUCT_MODULE_NAME = PSDrawsana;
@@ -643,7 +852,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSDrawsana_Tests/Pods-PSDrawsana_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSDrawsana_Tests/Pods-PSDrawsana_Tests.modulemap";
@@ -664,6 +873,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 95C7AE5874887893DA9AE4CBFC498C7B /* PSDrawsana.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,7 +886,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PSDrawsana/PSDrawsana-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PSDrawsana/PSDrawsana-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PSDrawsana/PSDrawsana.modulemap";
 				PRODUCT_MODULE_NAME = PSDrawsana;
@@ -684,6 +894,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -707,7 +918,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSDrawsana_Tests/Pods-PSDrawsana_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSDrawsana_Tests/Pods-PSDrawsana_Tests.modulemap";

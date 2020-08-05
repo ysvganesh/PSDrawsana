@@ -1,0 +1,16 @@
+PODS:
+  - PSDrawsana (0.1.0)
+
+DEPENDENCIES:
+  - PSDrawsana (from `../`)
+
+EXTERNAL SOURCES:
+  PSDrawsana:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSDrawsana: 3c63ec6374138e07ad119b30f3f22c1a03d6a92b
+
+PODFILE CHECKSUM: 9d53219512131e0573bd24af2dff59313685c245
+
+COCOAPODS: 1.8.4

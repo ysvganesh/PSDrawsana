@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PSDrawsana_Example' do
+  pod 'PSDrawsana', :path => '../'
+
+  target 'PSDrawsana_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
